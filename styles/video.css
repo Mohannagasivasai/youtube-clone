@@ -1,0 +1,89 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr ;
+
+  column-gap: 16px;
+  /* reduce horizontal gap */
+  row-gap: 40px;
+  /* control the exact space between videos */
+  justify-content: center;
+}
+
+/*if screen size is 600px or less it will activate*/
+@media (max-width:750px){
+.video-grid {
+  grid-template-columns : 1fr 1fr;
+}
+}
+
+@media (max-width:750px) and (max-width:999px){
+video-grid {
+  grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (min-width:1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  } }
+
+.video-preview {
+  display: inline-block;
+}
+
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.thumbnail {
+  width: 100%;
+  margin-bottom: 0;
+  border-radius: 8px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.video-title {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+
+
+.profile-picture {
+  width: 40px;
+  border-radius: 50px;
+}
+
+
+.video-time{
+position: absolute;
+background-color: black;
+color:white;
+bottom: 15px;
+right:10px;
+font-size: large;
+font-weight: 400;
+padding: 4px 10px;
+border-radius: 5px;
+
+}
