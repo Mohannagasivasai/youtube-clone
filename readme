@@ -1,7 +1,0 @@
-a paragraph in div takes space with in div container only not entire page
-when images are in other folder we should use ../foldername/image name
-inline-block takes as much space they need
-block takes entire space
-not margins its vertical align
-<!--  pargrapg by default is an block elemnt   inline elemnts are just text elemnts appearin the between text elemnt likestrong -->
-we created div based on the layouts
